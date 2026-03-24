@@ -1,0 +1,1 @@
+<h2><a href=https://www.codewars.com/kata/53369039d7ab3ac506000467/train/javascript target="_blank">Convert boolean values to strings 'Yes' or 'No'.</a></h2><h3>8 kyu</h3><p>Complete the method that takes a boolean value and return a <code>"Yes"</code> string for <code>true</code>, or a <code>"No"</code> string for <code>false</code>.</p>
