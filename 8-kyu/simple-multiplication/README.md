@@ -1,0 +1,1 @@
+<h2><a href=https://www.codewars.com/kata/583710ccaa6717322c000105/train/javascript target="_blank">Simple multiplication</a></h2><h3>8 kyu</h3><p>This kata is about multiplying a given number by eight if it is an even number and by nine otherwise.</p>
