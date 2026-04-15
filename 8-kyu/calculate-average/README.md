@@ -1,0 +1,1 @@
+<h2><a href=https://www.codewars.com/kata/57a2013acf1fa5bfc4000921/train/javascript target="_blank">Calculate average</a></h2><h3>8 kyu</h3><p>Write a function which calculates the average of the numbers in a given array.</p><p><strong>Note:</strong> Empty arrays should return 0.</p>
