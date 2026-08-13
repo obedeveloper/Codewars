@@ -1,0 +1,1 @@
+<h2><a href=https://www.codewars.com/kata/57f59da8d3978bb31f000152/train/javascript target="_blank">Make Me Slow</a></h2><h3>7 kyu</h3><p>Make me slow! Calling makeMeSlow() should take at least 7 seconds.</p>
