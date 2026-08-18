@@ -1,27 +1,21 @@
 function longestConsec(strarr, k) {
-  const len = strarr.length;
+  const n = strarr.length;
+  if (n == 0 || k > n || k <= 0) return ''
   
-  if (len == 0 || k > len || k <= 0) {
-    return '';
-  }
+  let longest = null;
   
-  const txts = [];
-  
-  for (let i = 0; i < len; i++) {
-    let txt = '';
+  for (let i = 0; i < n; i++) {
+    const str = strarr.slice(i, i + k).join('');
     
-    for (let j = i; j < i + k; j++) {
-      txt += strarr[j] ?? '';
+    if (!longest) {
+      longest = str;
+      continue;
     }
     
-    txts.push(txt);
+    if (longest.length < str.length) {
+      longest = str;
+    }
   }
   
-  return txts.reduce((longest, txt) => {
-    if (txt.length > longest.length) {
-      return txt;
-    }
-    
-    return longest;
-  });
+  return longest;
 }
